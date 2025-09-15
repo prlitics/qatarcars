@@ -24,7 +24,7 @@ pip install qatarcars
 From GitHub:
 
 ``` {bash}
-pip install git+https://github.com/prlitics13/qatarcars.git
+pip install git+https://github.com/prlitics/qatarcars.git
 ```
 
 ## What’s Included?
