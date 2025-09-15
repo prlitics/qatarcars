@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "qatarcars"
-version = "0.1.0"
+version = "1.0.0"
 description = "A package containing data on Qatari cars for pedagogical purposes"
 authors = ["Peter Licari", "Paul Musgrave"]
 license = "CC0 v1.0 Universal"
