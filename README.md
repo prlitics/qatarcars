@@ -104,13 +104,14 @@ I’m curious how much a vehicle’s weight impacts its ability to get to
 
 ``` python
 (p9.ggplot(df) +
-p9.aes(x = 'mass', y = 'performance', group = 'enginetype', color = 'enginetype') +
+p9.aes(x = 'mass', y = 'performance') +
 p9.geom_point() +
 p9.geom_smooth() +
 p9.labs(x = 'Mass (kg)', y = 'Time to 100km/h \n(seconds)'))
 ```
 
-![](README_files/figure-commonmark/cell-3-output-1.svg)
+<img src="README_files/figure-commonmark/cell-3-output-1.png"
+width="336" height="240" />
 
 Does this change based on what kind of drivetrain it has?
 
@@ -122,7 +123,8 @@ p9.geom_smooth() +
 p9.labs(x = 'Mass (kg)', y = 'Time to 100km/h \n(seconds)'))
 ```
 
-![](README_files/figure-commonmark/cell-4-output-1.svg)
+<img src="README_files/figure-commonmark/cell-4-output-1.png"
+width="336" height="240" />
 
 Interesting! Electric cars take more of a performance hit the heavier
 they get whereas hybrids and petrol-based vehicles tend to flatten out
@@ -136,7 +138,8 @@ p9.aes(x = 'type') +
 p9.geom_bar())
 ```
 
-![](README_files/figure-commonmark/cell-5-output-1.svg)
+<img src="README_files/figure-commonmark/cell-5-output-1.png"
+width="336" height="240" />
 
 A lot of SUVs!
 
