@@ -2,6 +2,8 @@
 
 # QatarCars – Modern Passenger Cars Data
 
+<img src="qatarcars_hex.png" data-fig-align="center" />
+
 QatarCars is a lightweight CSV describing modern passenger cars from
 around the world. The aim is to give students a small, well‑structured
 dataset that still covers a range of data‑science tasks (merging,
